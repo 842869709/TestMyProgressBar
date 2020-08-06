@@ -1,0 +1,3 @@
+include ':myprogressbar'
+include ':app'
+rootProject.name = "TestMyProgressBar"

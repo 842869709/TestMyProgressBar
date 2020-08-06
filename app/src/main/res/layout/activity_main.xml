@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E26E">
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+        <com.yxd.myprogressbar.MyProgressBar
+            android:id="@+id/mpb"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@android:color/white"
+            app:STROKWITH="10dp"
+            app:BACKGROUND_COLOR="#B589C4"
+            app:FOREGROUND_COLOR="#3BA550"
+            app:TEXT_COLOR="#3BA550"
+            app:INTERVAL="10"
+            app:TEXT_SIZE="60sp"
+            app:IS_SHOW_TEXT="true"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="99dp"
+            android:visibility="invisible"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="99dp"
+            android:visibility="invisible"/>
+
+    </FrameLayout>
+
+    <com.yxd.myprogressbar.MyProgressBar
+        android:id="@+id/mpb2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/white"
+        app:STROKWITH="6dp"
+        app:BACKGROUND_COLOR="#999999"
+        app:FOREGROUND_COLOR="#BD1161"
+        app:TEXT_COLOR="#BD1161"
+        app:INTERVAL="10"
+        app:TEXT_SIZE="34sp"
+        app:IS_SHOW_TEXT="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.yxd.myprogressbar.MyProgressBar
+        android:id="@+id/mpb3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/white"
+        app:STROKWITH="4dp"
+        app:BACKGROUND_COLOR="#999999"
+        app:FOREGROUND_COLOR="#FF000A"
+        app:TEXT_COLOR="#FF000A"
+        app:INTERVAL="10"
+        app:TEXT_SIZE="14sp"
+        app:IS_SHOW_TEXT="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.yxd.myprogressbar.MyProgressBar
+        android:id="@+id/mpb4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@android:color/white"
+        app:STROKWITH="20dp"
+        app:BACKGROUND_COLOR="#999999"
+        app:FOREGROUND_COLOR="#FF000A"
+        app:TEXT_COLOR="#FF000A"
+        app:INTERVAL="10"
+        app:TEXT_SIZE="40sp"
+        app:IS_SHOW_TEXT="true"
+        app:Stroke_Cap="BUTT"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
