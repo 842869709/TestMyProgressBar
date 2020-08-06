@@ -42,11 +42,11 @@
 ## 2.功能参数与含义
 配置参数|参数含义|参数类型|默认值
 -|-|-|-
-STROKWITH|	圆环的线条宽度|	dp|	10
+STROKWITH|	圆环的线条宽度|	dp|	10dp
 BACKGROUND_COLOR|	背景色|	string|	#999999
 FOREGROUND_COLOR|	前景色|	string|	#666666
 INTERVAL|	绘制时间间隔|	string| 	10(毫秒)
-TEXT_SIZE|	字体大小|	sp| 	10
+TEXT_SIZE|	字体大小|	sp| 	10sp
 TEXT_COLOR|	字体颜色|	string| 	#666666
 IS_SHOW_TEXT|	标记是否显示文字|	boolean| 	true
 Stroke_Cap|	显示圆角还是直角|	enum| 	ROUND圆角(默认)，BUTT直角，SQUARE
