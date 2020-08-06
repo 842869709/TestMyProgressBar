@@ -29,6 +29,5 @@ public class MainActivity extends AppCompatActivity {
 
         myProgressBar4 = findViewById(R.id.mpb4);
         myProgressBar4.setProgress(75);
-
     }
 }
