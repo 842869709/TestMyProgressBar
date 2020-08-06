@@ -1,7 +1,9 @@
 # MyProgressBar
 自定义圆形带动画ProgressBar，进度条
 
-示例图片，图片如果不展示请出国即可
+
+## 示例图片
+图片如果不展示请出国即可
 图片做了帧率压缩，所以有卡顿，实际效果顺滑
 
 ![](https://github.com/842869709/TestMyProgressBar/blob/master/test.gif)
